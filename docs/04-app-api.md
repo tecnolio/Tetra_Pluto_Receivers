@@ -2,9 +2,13 @@
 
 ## Qu? existe y qu? falta
 
-La API de este ?rbol acepta perfiles compartidos, guarda nombres SSI y grupos y proporciona posiciones y audio. La APK personal existente funciona con un servidor y CA concretos. La versi?n 1.3 a?ade en Ajustes el enlace **Preparar un Pluto ? Abrir gu?a en GitHub** hacia este repositorio, mediante el navegador externo.
+La API de este árbol acepta perfiles compartidos, guarda nombres SSI y grupos y proporciona posiciones y audio.
 
-**Pendiente:** publicar el cliente gen?rico que permita introducir URL/puerto, gestionar certificados y credenciales por servidor y editar/aplicar frecuencias desde Android. Este repositorio inicial no incluye esa APK ni anuncia disponibilidad en Google Play. No basta con cambiar una URL: el servidor debe tener esta API, FPGA y controladores compatibles.
+La APK 1.4 de desarrollo **no incluye una URL de Pluto preconfigurada**. Al conectar pide URL/IP, puerto y credenciales; datos y audio usan ese servidor. Conserva el enlace de ayuda a este repositorio y los mapas de OpenStreetMap. El acceso se guarda cifrado y los cambios de conexión descartan datos y peticiones anteriores.
+
+Usa HTTPS con validación del nombre del servidor y certificados de Android. Si usas una CA privada, selecciona su archivo público en «Importar CA propia» dentro del diálogo de conexión; no se incluye la CA personal del equipo de referencia. Al actualizar desde la APK anterior se configura el servidor una vez.
+
+**Pendiente:** editar/aplicar perfiles UL/DL desde Android, validar la versión configurable en dispositivos físicos y publicar una APK genérica distribuible. Este repositorio no incluye todavía esa APK ni anuncia disponibilidad en Google Play. El servidor necesita API, FPGA y controladores compatibles.
 
 ## Contrato del servidor
 

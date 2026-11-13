@@ -8,7 +8,9 @@ La APK 1.4 de desarrollo **no incluye una URL de Pluto preconfigurada**. Al cone
 
 Usa HTTPS con validación del nombre del servidor y certificados de Android. Si usas una CA privada, selecciona su archivo público en «Importar CA propia» dentro del diálogo de conexión; no se incluye la CA personal del equipo de referencia. Al actualizar desde la APK anterior se configura el servidor una vez.
 
-**Pendiente:** editar/aplicar perfiles UL/DL desde Android, validar la versión configurable en dispositivos físicos y publicar una APK genérica distribuible. Este repositorio no incluye todavía esa APK ni anuncia disponibilidad en Google Play. El servidor necesita API, FPGA y controladores compatibles.
+[**Descargar APK 1.4**](https://github.com/tecnolio/Tetra_Pluto_Receivers/raw/refs/heads/main/downloads/PlutoPocket-1.4.apk) · [Instrucciones y SHA256](../downloads/README.md).
+
+**Pendiente:** editar/aplicar perfiles UL/DL desde Android y validar la versión configurable en dispositivos físicos. La APK se publica como versión de prueba; no está en Google Play. El servidor necesita API, FPGA y controladores compatibles.
 
 ## Contrato del servidor
 

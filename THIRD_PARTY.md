@@ -20,4 +20,4 @@ Contienen o derivan de c?digo de referencia TETRA/ETSI. Revisa las condiciones o
 
 `backend/codec-include/` contiene adaptadores de compilaci?n del proyecto. No se incluyen los ?rboles de c?dec ni bibliotecas de sistema del equipo original. Se conserva tambi?n el texto GPLv3 que acompa?a al proyecto en `LICENSES/GPL-3.0.txt`; no cambia las condiciones particulares de otros componentes.
 
-Los binarios y paquetes generados quedan en `build/`, excluidos de publicaci?n. La APK personal, claves y certificados de firma/TLS no forman parte de esta exportaci?n.
+Los binarios y paquetes del receptor generados quedan en `build/`, excluidos de publicación. En `downloads/` se publica expresamente la APK Android 1.4 y su SHA256. Incluye el aviso de Leaflet en sus assets, reproduce PCM del servidor y no incorpora los códecs TETRA. Las claves de firma, credenciales y certificados personales no se publican.

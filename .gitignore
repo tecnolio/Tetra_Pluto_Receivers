@@ -12,3 +12,6 @@ __pycache__/
 *.dcp
 *.log
 .Xil/
+
+# Explicitly published, versioned Android downloads
+!downloads/PlutoPocket-*.apk

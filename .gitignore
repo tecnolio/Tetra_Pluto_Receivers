@@ -1,0 +1,14 @@
+build/
+deps/
+private/
+__pycache__/
+*.pyc
+*.apk
+*.jks
+*.key
+*.pem
+*.bin
+*.bit
+*.dcp
+*.log
+.Xil/
